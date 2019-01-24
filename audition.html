@@ -1,0 +1,146 @@
+<!--
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>오디션</title>
+        <style>
+        </style>
+    </head>
+    <body>
+
+    </body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<title>연습생</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+.sm{
+
+  margin-top:30px;
+}
+.title{
+  color:purple;
+  text-align:center;
+  margin-top:50px;
+}
+
+.sm_when{
+  font-size:20px;
+}
+
+.home1{
+  color:blue;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <button  class="w3-bar-item w3-button w3-hide-small w3-hover-white" id="info" onclick="info_click();">Info</button>
+    <button  class="w3-bar-item w3-button w3-hide-small w3-hover-white" id="vedio">Vedio</button>
+    <button  class="w3-bar-item w3-button w3-hide-small w3-hover-white" id="community">Community</button>
+  </div>
+</div>
+
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+</nav>
+
+
+<div>
+    <h1 class="title" style="margin-top:80px;">Audition Information</h1>
+</div>
+<div style="margin-top:20px; ">
+    <a href="#sm" style="margin-left:300px; text-decoration:none; color:pink">SM엔터테인먼트</a></li>
+    <a href="#yg" style="margin-left:100px; text-decoration:none; color:gray">YG엔터테인먼트</a></li>
+    <a href="#jyp" style="margin-left:100px; text-decoration:none; color:skyblue">JYP엔터테인먼트</a></li>
+    <a href="#pledis" style="margin-left:100px; text-decoration:none;">PLEDIS엔터테인먼트</a></li>
+</div>
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+  <div class="w3-row w3-padding-64">
+    <div id="sm" class="w3-twothird w3-container">
+      <h1 class="sm"  style="color:pink;">SMTOWN - Sm Weekly Audition</h1>
+      <img src="sm.jpg" style="width:400px;">
+      <img class="revel" src="revel.jpg" style="width:400px;margin-left:10px;">
+      <p class="sm_when">일시 : 매주 토요일 오후 12시/ 11시 30분부터 현장접수<br>
+      장소 : SMTOWN@COEXARTIUM 6F<br>
+    <a class="home1" href="http://www.smentertainment.com" style= "text-decoration:none" target="_blank" >홈페이지 바로가기</a></p>
+    </div>
+  </div>
+
+  <div class="w3-row"></div>
+    <div id="yg" class="w3-twothird w3-container">
+        <h1 class="yg" style="color:gray;">YG entertainment</h1>
+        <img src="yg.jpg" style="width:400px;">
+        <img class="revel" src="black.jpg" style="width:400px;margin-left:10px;">
+        <p class="sm_when">일시 : 매주 토요일 오후 12시/ 11시 30분부터 현장접수<br>
+        장소 : SMTOWN@COEXARTIUM 6F<br>
+      <a class="home1" href="http://www.ygfamily.co.kr/" style= "text-decoration:none" target="_blank" >홈페이지 바로가기</a></p>
+    </div>
+  
+  <div class="w3-row"></div>
+  <div id="jyp" class="w3-twothird w3-container" style="margin-top:50px">
+      <h1  class="jyp" style="color:skyblue;">JYP entertainment</h1>
+      <img src="jyp.jpg" style="width:400px;">
+      <img class="revel" src="twice.jpg" style="width:400px;margin-left:10px;">
+      <p class="sm_when">일시 : 매월 첫째, 셋째 일요일 오후 1시<br>
+      장소 : 서울 특별시 강동구 강동대로 205<br>
+    <a class="home1" href="http://m.jype.com/" style= "text-decoration:none" target="_blank" >홈페이지 바로가기</a></p>
+  </div>
+
+  <div class="w3-row"></div>
+  <div class="w3-twothird w3-container" style="margin-top:50px">
+      <h1 id="jyp" class="jyp" style="color:blue;">JYP entertainment</h1>
+      <img src="yg.jpg" style="width:400px;">
+      <img class="revel" src="black.jpg" style="width:400px;margin-left:10px;">
+      <p class="sm_when">일시 : 매주 토요일 오후 12시/ 11시 30분부터 현장접수<br>
+      장소 : SMTOWN@COEXARTIUM 6F<br>
+    <a class="home1" href="http://www.smentertainment.com" style= "text-decoration:none" target="_blank" >홈페이지 바로가기</a></p>
+  </div>
+</div>
+
+
+ 
+
+
+  <footer id="myFooter">
+  
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+  function info_click(){
+    alert("info를 누르셨습니다")
+  }
+  function vedio_click(){
+
+  }
+  function community_click(){
+
+  }
+</script>
+
+</body>
+</html>
